@@ -282,5 +282,12 @@ Complete Exercise 15 in the space below:
 */
 
 
+let total = 0;
+
+numArrays.forEach(innerArray => {
+  innerArray.forEach(number => {
+    total += number;
+  });
+});
 
 console.log('Exercise 15 result:\n', total);
